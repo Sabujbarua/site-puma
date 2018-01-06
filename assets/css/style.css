@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logobar{
+  height: 70px;
+  width: auto;
+  background: orange;
+
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blackbar {
+    margin-top: 0;
+    margin-bottom: 0;
+    background: black;
+    color: white;
+    width: auto;
+}
+
+.slideheight {
+    height: 558px;
+}
+
+.slide{
+  display: block;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  background: white;
+
+}
+
+.rounded{
+  height: 100px;
+  width: 100px;
+  border-bottom: solid red;
+  margin: 10%;
+}
+
+.btn{
+  margin: 10%;
+}
+
+.text-center {
+  position: absolute;
+  color: white;
+  display: block;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.text {
+  text-align: center;
+  background: white;
+  margin: 0;
+  padding: 10px
+}
+
+/* .p-text {
+    margin: 0;
+} */
+
+.amimimg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: white;
+  margin: 0;
+}
+
+.nixon {
+  margin-top: -120px;
+}
+
+.air {
+  margin-top: -120px;
+}
+
+.nixon:hover {
+  transform:rotateY(180deg);
+  transition-duration: 1s;
+  transform-style: preserve-3d;
+  text-decoration: none;
+}
+
+/* .hello{
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}  (nixon image)*/
+
+.main-container {
+    background: white;
+    width: 100%;
+    display: flex;
+}
+
+
+.content-flex {
+  width: 758px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.first {
+  width: 378px;
+  height: 378px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ball-img{
+    width: 378px;
+    height: 378px;
+}
+
+.first1 {
+  height: 189px;
+  width: 189px;
+}
+
+.mark img{
+    width: 100%;
+    margin: 0;
+}
+
+.footer-block {
+    background: #161616;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-nav ul li {
+    color: #BFBFBF;
+    display: inline;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.footer-nav ul {
+    padding-top: 50px;
+}
+
+.footer-nav ul li:hover{
+    color: orange;
+}
+
+.logo-div {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-logo img {
+    height: 80px;
+    width: 80px;
+
+}
+
+.logo-hr {
+    background: #BFBFBF;
+    height: 2px;
+    width: 5&0%;
+    border: none;
+}
